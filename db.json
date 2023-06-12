@@ -1,0 +1,145 @@
+{
+  "register": {
+    "message": "Register berhasil"
+  },
+  "login": {
+    "message": "Login Succes!",
+    "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwiaWF0IjoxNjg1OTY5NTA5LCJleHAiOjE2ODU5NzMxMDl9.Q0QTQ-3bv72U7RTPMpgVrLdJG6JfC13nJ1zCNahtwgM",
+    "data": {
+        "id": 1,
+        "password": "$2a$10$ew8mu/NeQiBPnImdwMlk/eZmUM5N65GTFcGNapevbEh6yRkLPSZxq",
+        "username": "coba1",
+        "email": "coba1@gmail.com",
+        "createdAt": "0000-00-00 00:00:00",
+        "updatedAt": "0000-00-00 00:00:00"
+    }
+  },
+  "bengkels": {
+    "message": "Success",
+    "data": [
+        {
+            "id": 1,
+            "nama": "Bengkel Pak Ucup Racing",
+            "photoUrl": "https://www.denpasarkota.go.id/public/uploads/berita/berita_192709100936_MotorRusakMogokIni6RekomendasiBengkelMotorDiDaerahDenpasarDanSekitarnya.jpeg",
+            "kendaraan": ["Motor", "Mobil"],
+            "latitude": -6.159184,
+            "longitude": 106.941511,
+            "alamat": "Jl. Raya Bojong Gede 21, Kedung Waringin, Kecamatan Bojonggede, Kabupaten Bogor, Jawa Barat 16923",
+            "antrian": 0,
+            "totalNilaiJumlahReview": 4.5,
+            "hariBuka": "Senin - Jum'at",
+            "jamBuka": "08.00 - 15.00",
+            "createdAt": "2023-06-05T08:09:01.000Z",
+            "updatedAt": "2023-06-05T08:09:01.000Z"
+        },
+        {
+            "id": 2,
+            "nama": "Bengkel Sporty Sporty Yeah",
+            "photoUrl": "https://asset.kompas.com/crops/ADDWSewJ9qV6LGLaX_FItZiw0dc=/223x125:1086x700/1200x800/data/photo/2023/03/09/640943022b757.jpeg",
+            "kendaraan": ["Motor"],
+            "latitude": -6.494641,
+            "longitude": 106.794793,
+            "alamat": "Jl. Kp. Sawah Indah 22, Susukan, Kecamatan Bojonggede, Kabupaten Bogor, Jawa Barat 16920",
+            "antrian": 0,
+            "totalNilaiJumlahReview": 3.9,
+            "hariBuka": "Setiap Hari",
+            "jamBuka": "08.00 - 16.00",
+            "createdAt": "2023-06-05T08:15:14.000Z",
+            "updatedAt": "2023-06-05T08:15:14.000Z"
+        },
+        {
+            "id": 3,
+            "nama": "Bengkel Rohis Nurul Hikmah",
+            "photoUrl": "https://s3.ap-southeast-1.amazonaws.com/moladin.assets/blog/wp-content/uploads/2017/07/31141202/BLOGBENGKEL-BUKAUSAHAYUK.jpg",
+            "kendaraan": ["Motor", "Mobil"],
+            "latitude": -6.5149896,
+            "longitude": 106.7326205,
+            "alamat": "Jl. Perum Pura, Tajurhalang, Kec. Tajur Halang, Kabupaten Bogor, Jawa Barat 16320",
+            "antrian": 0,
+            "totalNilaiJumlahReview": 5,
+            "hariBuka": "Senin - Sabtu",
+            "jamBuka": "08.00 - 16.00",
+            "createdAt": "2023-06-05T08:15:14.000Z",
+            "updatedAt": "2023-06-05T08:15:14.000Z"
+        }
+    ]
+  },
+  "detail": {
+    "message": "Success",
+    "data": {
+        "bengkel": {
+            "id": 1,
+            "nama": "Bengkel Pak Ucup Racing",
+            "photoUrl": "https://www.denpasarkota.go.id/public/uploads/berita/berita_192709100936_MotorRusakMogokIni6RekomendasiBengkelMotorDiDaerahDenpasarDanSekitarnya.jpeg",
+            "kendaraan": ["Motor", "Mobil"],
+            "latitude": -6.159184,
+            "longitude": 106.941511,
+            "alamat": "Jl. Raya Bojong Gede 21, Kedung Waringin, Kecamatan Bojonggede, Kabupaten Bogor, Jawa Barat 16923",
+            "antrian": 0,
+            "totalNilaiJumlahReview": 4,
+            "hariBuka": "Senin - Jum'at",
+            "jamBuka": "08.00 - 15.00",
+            "createdAt": "2023-06-05T08:09:01.000Z",
+            "updatedAt": "2023-06-05T08:09:01.000Z"
+        },
+        "jasas": [
+            {
+                "id": 1,
+                "idBengkel": 1,
+                "nama": "Ganti oli",
+                "keterangan": "Tipe oli XXX motor matic",
+                "harga": 30000,
+                "createdAt": "2023-06-05T08:21:25.000Z",
+                "updatedAt": "2023-06-05T08:21:25.000Z"
+            },
+            {
+                "id": 2,
+                "idBengkel": 1,
+                "nama": "Ganti ban dalam",
+                "keterangan": "Ban dalam diameter XX merk Daihatsu",
+                "harga": 200000,
+                "createdAt": "2023-06-05T08:22:07.000Z",
+                "updatedAt": "2023-06-05T08:22:07.000Z"
+            },
+            {
+                "id": 3,
+                "idBengkel": 1,
+                "nama": "Pasang ban tubeless",
+                "keterangan": "Ban tubeless diameter XX merk Honda",
+                "harga": 250000,
+                "createdAt": "2023-06-05T08:22:07.000Z",
+                "updatedAt": "2023-06-05T08:22:07.000Z"
+            }
+        ],
+        "reviews": [
+            {
+                "id": 1,
+                "idUser": 1,
+                "nama": "My Chemical Romance",
+                "photoUrl": "https://media.pitchfork.com/photos/5dbb44b5b4386a00082869d6/1:1/w_960,h_960,c_limit/My%20Chemical%20Romance%202.png",
+                "createdAt": "2023-06-05T08:21:25.000Z",
+                "rating": 5,
+                "ulasan": "Mantap gan harga murah kualitas gak murahan cuy"
+            },
+            {
+                "id": 2,
+                "idUser": 2,
+                "nama": "The Cranberries",
+                "photoUrl": "https://cdn0-production-images-kly.akamaized.net/wj3WMQHyWxEbpw1GSxqRSkcdnvM=/1200x1200/smart/filters:quality(75):strip_icc():format(jpeg)/kly-media-production/medias/1832798/original/045191800_1516071400-20180116-Mengenang-Aksi-Dolores-O_Riordan-Vokalis-The-Cranberries-AFP-5.jpg",
+                "createdAt": "2023-06-05T08:21:25.000Z",
+                "rating": 4,
+                "ulasan": "Just my imagination, just my imagination, just my imagination..."
+            },
+            {
+                "id": 3,
+                "idUser": 3,
+                "nama": "Skeeter Davis",
+                "photoUrl": "https://i.scdn.co/image/ab67616d0000b273c4c4a5d82534d5e6b2ed349a",
+                "createdAt": "2023-06-05T08:21:25.000Z",
+                "rating": 5,
+                "ulasan": "Why does my heart go on beating, why does the sea rose to shore?"
+            }
+        ]
+    }
+  }
+}
